@@ -12,6 +12,8 @@
   height: 880px;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
+  margin-left: 300px;
   /* margin-left: 300px; */
 }
 .inputRecherche{
@@ -20,7 +22,11 @@
   height: 25px;
   justify-content: center;
   align-items: center;
+  margin-left: 390px;
    
+}
+input{
+  height: 20px;
 }
 
 .cont-popup{
@@ -122,12 +128,14 @@
     align-items: center;
     margin-left: 100px; 
   }
-  input{
+.inputRecherche{                    
     display: flex;
     width: 220px;
     height: 25px;
     justify-content: center;
     align-items: center;
+    margin-left:-10px;
+   
   }
   .title{
     text-align: center;
