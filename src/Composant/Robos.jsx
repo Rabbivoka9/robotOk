@@ -34,7 +34,7 @@ function Robos() {
     return (
       <div className="robots-container">
         <div className="inputRecherche">
-          <input
+          <input className='put'
             type="text"
             placeholder="Recherche par nom"
             onChange={handleChange}

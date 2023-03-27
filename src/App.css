@@ -1,12 +1,185 @@
+
+@font-face {
+  font-family: "SEGA";
+  src: url("fonts/SEGA.TTF") format("truetype");
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  background: rgb(0,118,123);
+  background: linear-gradient(90deg, rgba(0,118,123,1) 0%, rgba(3,72,102,1) 50%, rgba(6,32,84,1) 100%);
+  width: 980px;
+  height: 880px;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 300px; */
+}
+.inputRecherche{
+  display: flex;
+  width: 220px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.cont-popup{
+  position: fixed;
+  border: none;
+  border-radius: 20px 4px;
+  width: 200px;
+  height: 150px;
+  background-color: blue;
+  color: white;
+}
+
+.tex1{
+  font-size: 10px;
+  font-weight: lighter;
+  color: black;
+  margin-top: -10px;
+  text-align: center;
+}
+.title{
+  text-align: center;
+  justify-content: center;
+  font-family: Sega;
+  color: rgba(158,235,207,255);
+}
+.disposition{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+} 
+.card{
+  display: flex;
+ 
+    flex-direction: column;
+    justify-content: center;
+    width: 21%;
+    height: 220px;
+    background-color: rgba(158,235,207,255);
+    margin: 8px;
+    cursor: pointer;
+    border-radius: 5px 5px;
+}
+.card:hover{
+ background-color: #ffa126;
+ transform: scale(1);
+ transition: all 1s ease;
+ border: solid 9px  #ffa126;
+}
+.tex{
+  text-align: center;
+  font-size: 11px;
+}
+.ig{
+  display: flex;
+  justify-content: center;
+  width: 195px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 900px) {
+  
   .App {
     display: flex;
     flex-direction: column;
     background: rgb(0,118,123);
     background: linear-gradient(90deg, rgba(0,118,123,1) 0%, rgba(3,72,102,1) 50%, rgba(6,32,84,1) 100%);
     width: 480px;
-    height: 880px;
+    height: 100%;
     justify-content: center;
-    /* margin-left: 300px; */
+    align-items: center;
+    margin-left: 100px; 
   }
+  input{
+    display: flex;
+    width: 220px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  .title{
+    text-align: center;
+    justify-content: center;
+    font-family: Sega;
+    color: rgba(158,235,207,255);
+  }
+  .card{
+    display: flex;
+   
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 91%;
+      height: 220px;
+      background-color: rgba(158,235,207,255);
+      margin: 18px;
+      cursor: pointer;
+      border-radius: 5px 5px;
+  }
+  .card:hover{
+   background-color: #ffa126;
+   transform: scale(1);
+   transition: all 1s ease;
+   border: solid 9px  #ffa126;
+  }
+  .ig{
+    display: flex;
+    justify-content: center;
+    width: 155px;
+  }
+  .tex{
+    text-align: center;
+    font-size: 11px;
+  }
+  .disposition{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 10px;
+  } 
+  .cont-popup{
+    position: fixed;
+    border: none;
+    border-radius: 20px 4px;
+    width: 200px;
+    height: 150px;
+    background-color: blue;
+    color: white;
+  }
+
 }

@@ -18,7 +18,7 @@ function Card({robo}){
             
             { openModal &&
                 ( 
-                         <Popup name={robo.name} /> 
+                         <Popup name={robo.name } /> 
                 
                 )
             }
