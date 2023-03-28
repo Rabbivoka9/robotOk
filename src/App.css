@@ -19,15 +19,18 @@
 .inputRecherche{
   display: flex;
   width: 220px;
-  height: 25px;
   justify-content: center;
   align-items: center;
-  margin-left: 390px;
+  text-align: center;
    
 }
 input{
-  height: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .cont-popup{
   position: fixed;
@@ -70,6 +73,7 @@ input{
     margin: 8px;
     cursor: pointer;
     border-radius: 5px 5px;
+   max-width: 21%;
 }
 .card:hover{
  background-color: #ffa126;
@@ -156,6 +160,7 @@ input{
       margin: 18px;
       cursor: pointer;
       border-radius: 5px 5px;
+      max-width: 91%;
   }
   .card:hover{
    background-color: #ffa126;
